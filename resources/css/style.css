@@ -76,3 +76,20 @@ h2, h3, h4 {
 	width: 300px;
 	height: 200px;
 }
+
+#month h2 {
+	padding-bottom: 15px;
+}
+#monthImages {
+	display: flex;
+	flex-wrap: wrap;
+}
+figure {
+	margin: 0 5px;
+	padding: 0 10px;
+}
+
+figcaption {
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
