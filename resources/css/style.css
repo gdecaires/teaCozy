@@ -53,11 +53,13 @@ h2, h3, h4 {
 
 #mission {
 	height: 700px;
+	width: 1200px;
 	background-color: gray;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	background-image: url("../images/img-mission-background.jpg");
+	margin: 0 auto;
 }
 
 .content {
