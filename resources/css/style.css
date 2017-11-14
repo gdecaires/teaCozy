@@ -28,6 +28,8 @@ header {
 	align-items: center;
 	justify-content: flex-end;
 	position: fixed;
+	background-color: #000;
+	z-index: 1;
 }
 
 nav {
@@ -64,4 +66,13 @@ h2, h3, h4 {
 
 .content {
 	width: 100%
+}
+
+#month {
+	margin: 50px auto 0;
+	width: 1000px;
+}
+#month img {
+	width: 300px;
+	height: 200px;
 }
