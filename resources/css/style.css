@@ -66,12 +66,12 @@ h2, h3, h4 {
 	align-items: center;
 	flex-wrap: wrap;
 	display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 	background-image: url("../images/img-mission-background.jpg");
 	margin: 0 auto;
 }
@@ -116,15 +116,17 @@ figcaption {
 
 #locations {
 	background-image: url("../images/img-locations-background.jpg");
+	background-repeat: no-repeat;
 	height: 500px;
 	width: 1200px;
 	margin: 0 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 	align-items: center;
+	flex-direction: column;
 }
 
 .address {
@@ -132,4 +134,26 @@ figcaption {
 	height: 300px;
 	background-color: #000;
 	margin: 0 20px;
+	text-align: center;
+}
+
+#addresses {
+	display: flex;
+}
+
+footer {
+	display: flex;
+	flex-flow: column;
+}
+
+#footerAddress {
+	text-align: center;
+	padding: 5px 0;
+	height: 200px;
+}
+
+#copyright {
+	display: block;
+	text-align: left;
+	padding-left: 20px;
 }
